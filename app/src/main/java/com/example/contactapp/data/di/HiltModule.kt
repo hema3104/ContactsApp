@@ -5,7 +5,7 @@ import androidx.room.Room
 import com.example.contactapp.data.database.ContactDataBase
 import dagger.Module
 import dagger.Provides
-import dagger.hilt.InstallIn
+import dagger.hilt.InstallI
 import dagger.hilt.components.SingletonComponent
 
 
