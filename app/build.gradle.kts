@@ -69,32 +69,25 @@ dependencies {
     // Icons
     implementation("androidx.compose.material:material-icons-extended")
 
-    // -------------------------
     // ROOM DATABASE
-    // -------------------------
     val room_version = "2.6.1"
 
     implementation("androidx.room:room-runtime:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
 
-    // -------------------------
     // HILT DEPENDENCY INJECTION
-    // -------------------------
     implementation("com.google.dagger:hilt-android:2.50")
     kapt("com.google.dagger:hilt-android-compiler:2.50")
 
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 
-    // -------------------------
     // NAVIGATION
-    // -------------------------
     val nav_version = "2.7.7"
     implementation("androidx.navigation:navigation-compose:$nav_version")
 
-    // -------------------------
+
     // TESTING
-    // -------------------------
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
